@@ -11,7 +11,7 @@
 	< A REMETTRE position:fixed;
         top: 0; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
         left: 0;
-        right: 0; > POUR FIXER LE HEADER
+        right: 0; > A REMETTRE
 
 }
 .bouton, .bouton_inscription
@@ -104,13 +104,106 @@
 	align-items:center;
 	justify-content:center;
 }
-.bouton_touslesfilms
+.bouton_touslesfilms a
 {
-	position:relative;
-	position:300px;
 	color:black;
 	font-family:Poppins;
-	text-decoration:none;
+	text-decoration:underline;
 	margin-top:8px;
 	font-weight:500;
+	margin-left:911px;
+}
+.bouton_touslesfilms a:hover
+{
+	text-decoration:none;
+	color:black;
+}
+.carte_prix
+{
+	background-color:#FCFCFC;
+	width:350px;
+	height:550px;
+
+}
+.carte_prix_jaune
+{
+	background-color:#FFF14F;
+	width:100%;
+	height:200px;
+	font-size:100px;
+	text-align:center;
+	padding-top:20px;
+	font-family: Metropolis;
+	font-weight:200;
+
+}
+#etudiant
+{
+	text-align:center;
+	font-size:30px;
+	font-family:Metropolis;
+	font-weight:600;
+	margin-top:10px;
+
+}
+.points
+{
+	text-align:center;
+	font-family:Metropolis;
+	font-size:20px;
+	margin-top:40px;
+	line-height:50px;
+
+}
+.my-btn_abonner {
+  font-size:20px;
+  text-decoration:none;
+  font-family:Poppins;
+  background:black;
+  color:#FFF14F;
+  padding:5px 20px 5px 20px;
+ border-radius:3px;
+  font-weight: 500;
+  letter-spacing:1px;
+
+  
+}
+.my-btn_abonner:hover
+{
+ background:#FFF14F;
+
+ color:black;
+ text-decoration:none;
+}
+.bouton_abonner
+{
+	display:flex;
+	margin-top:25px;
+	  text-align:center;
+	  justify-content:center;
+}
+body
+{
+	background-color:red;
+}
+#mois
+{
+	font-size:20px;
+	display:flex;
+	margin-top:-30px;
+	margin-left:220px;
+}
+.cartes_abonnement
+{
+;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+
+
+}
+.footer
+{
+	background-color:#1B1B1B;
+	height:200px;
 }
