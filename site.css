@@ -206,4 +206,42 @@ body
 {
 	background-color:#1B1B1B;
 	height:200px;
+	width:100%;
+	
+
+
+}
+.conteneur
+{
+	flex-direction:row;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.colonne_1 a, .colonne_2 p, .colonne_3 a
+{
+
+	color:white;
+	text-decoration:none;
+	font-size:14px;
+	font-family:Poppins;
+	letter-spacing:1px;
+	line-height:40px;
+
+}
+.colonne_1 a:hover, .colonne_3 a:hover
+{
+
+text-decoration:underline;
+color:white;
+}
+.colonne_1, .colonne_3
+{
+	margin-top:40px;
+}
+
+.colonne_2 p
+{
+	font-weight:600;
 }
