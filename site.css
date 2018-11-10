@@ -14,6 +14,17 @@
         right: 0; > A REMETTRE
 
 }
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.ttf') format('truetype'),
+
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('Metropolis-Regular.otf') format('otf'),
+    
+
+}
 .bouton, .bouton_inscription
 {
 	color:black;
@@ -244,4 +255,66 @@ color:white;
 .colonne_2 p
 {
 	font-weight:600;
+	text-decoration:none;
 }
+
+.placeholder
+{
+	width:300px;
+	height:30px;
+	font-style:italic;
+	font-family:Poppins, Arial;
+	font-size:13px;
+	align-items:center;
+
+}
+.footer_icons img
+{
+	height:30px;
+	margin-left:60px;
+
+
+}
+.conteneur_fonctionnement
+{
+	display:flex;
+	background-color:white;
+	margin-top:0px;
+	height:300px;
+	flex-direction:row;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	font-size:15px;
+	font-family:Poppins, Arial;
+	letter-spacing:1px;
+	align-items:center;
+
+
+}
+.fonctionnement_1
+{
+	background-color:
+	justify-content:center;
+
+}
+.fonctionnement_2
+{
+	background-color:
+}
+.fonctionnement_3
+{
+	background-color:
+}
+.conteneur_fonctionnement img
+{
+	width:100px;
+	padding-bottom:20px;
+}
+.bouton a
+{
+	color:black;
+	text-decoration:none;
+}
+.bouton a:hover
+{
+	color:black;

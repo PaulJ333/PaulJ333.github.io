@@ -16,13 +16,13 @@
 		</a>
 	</div>
 	<div class=bouton>
-		 CATALOGUE
+		 <a href="#ancre_catalogue"> CATALOGUE </a>
 	</div>
 	<div class=bouton>
-		PRIX
+		<a href="#ancre_prix">PRIX</a>
 	</div>
 	<div class=bouton>
-		FONCTIONNEMENT
+		<a href="#ancre_fonctionnement">FONCTIONNEMENT </a>
 	</div>
 	<div class=bouton_inscription>
 		<a href="" class="my-btn"> S'INSCRIRE </a>
@@ -40,7 +40,7 @@
 
 <div id=catalogue>
 	<div class=bouton_catalogue>
-		<a class="my-btn_catalogue"> CATALOGUE </a>
+		<a id=ancre_catalogue class="my-btn_catalogue"> CATALOGUE </a>
 	</div>
 </div>
 <div class=container>
@@ -92,7 +92,7 @@
 
 <div id=catalogue>
 	<div class=bouton_catalogue>
-		<a class="my-btn_catalogue"> PRIX </a>
+		<a id=ancre_prix class="my-btn_catalogue"> PRIX </a>
 	</div>
 </div>
 <div class=row><!--ouverture 3eme ligne -->
@@ -156,9 +156,39 @@
 
 <div id=catalogue>
 	<div class=bouton_catalogue id=fonctionnement>
-		<a class="my-btn_catalogue"> FONCTIONNEMENT </a>
+		<a id=ancre_fonctionnement class="my-btn_catalogue"> FONCTIONNEMENT </a>
 	</div>
 </div>
+
+<div class=conteneur_fonctionnement>
+
+
+
+	<div class=fonctionnement_1>
+		<center> <img src="fonctionnement/LogoRond.png" alt="Logo Cineption jaune"> </center>
+		<p>CINEPTION, un service <b> sans </br> engagement</b>au prix avantageux. </p>
+	</div>
+
+	<div class=fonctionnement_2>
+		<center> <img src="fonctionnement/noun_catalog_972336.png" alt="Logo Cineption jaune"> </center>
+		<p> Un accès à <b>plus de 1200 films </b> en </br><b> illimités </b> et en <b> haute qualité.</b> </p>
+	</div>
+
+	<div class=fonctionnement_3>
+		<center> <img src="fonctionnement/noun_ratings_2020112.png" alt="Logo Cineption jaune"> </center>
+		<p> <b> Notez et classez </b> vos films </br> préférés et <b> comparez vous </b>aux </br> autres utilisateurs. </p>
+	</div>
+
+
+
+
+</div>
+
+
+
+
+
+
 
 
 
@@ -196,6 +226,16 @@
 		<div class=colonne_2> <!-- deuxieme colonne -->
 			<p>Tous droits réservés ©Cineption 2018 </p>
 			<br>
+			<form class='newsletter'>
+  <input class=placeholder placeholder='Adresse e-mail' type='text'>
+			</form>
+			 <a href=""> <p> S'abonner à la Newsletter </p> </a>
+
+			<div class="footer_icons">
+			   	<a href=""> <img src="facebook_icon.png" alt="Logo Facebook"> </a>
+			   	<a href=""> <img src="twitter_icon.png" alt="Logo Twitter"> </a>		
+			 </div>
+
 
 		</div> <!-- fERMETURE colonne 2 -->
 
@@ -212,9 +252,10 @@
 
 
 
-</div>
 
-<script type="text/javascript" src="site.js"></script>
+
+
+<script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="mesfonctions.js"></script>
 </body>
 
 
